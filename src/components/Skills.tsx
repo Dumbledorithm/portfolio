@@ -9,7 +9,7 @@ interface Skill {
 const skills: Skill[] = [
   {
     category: "Languages",
-    items: ["Javascript", "Python", "Java", "C++", "SQL", "C"],
+    items: ["Javascript", "Python", "Java", "C++", "SQL", "C","HTML5","CSS"],
     icon: "⚡"
   },
   {
