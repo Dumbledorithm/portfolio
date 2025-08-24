@@ -6,25 +6,41 @@ interface Project {
   technologies: string[]
   image: string
   link: string
-  category: string
+  
 }
 
 const projects: Project[] = [
   {
-    title: "Personal investment Portfolio Management Tool",
-    description: "A Python-based personal investment portfolio management tool to track, analyze, and visualize financial assets in real-time.",
-    technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "Streamlit"],
-    image: "/Picture1.png",
-    link: "#",
-    category: "Full Stack"
+    title: "SecureDrop",
+    description: "SecureDrop is a privacy-focused web application that facilitates confidential file sharing through secure, single-use download links that are programmatically deleted after access.",
+    technologies: ["NextJS","Supabase"],
+    image: "/secure-drop-scrnshot.jpg",
+    link: "https://secure-drop-v4.vercel.app/",
+    
   },
   {
-    title: "A movie recommendation system",
-    description: "A movie recommendation system that uses collaborative filtering to recommend movies to users based on their viewing history and preferences.o",
-    technologies: ["Python", "Pandas", "Scikit-learn", "Streamlit"],
-    image: "/Picture2.png",
+    title: "ServicePro ",
+    description: "ServicePro is a full-stack hyperlocal service marketplace, designed to connect customers with providers through a seamless booking, confirmation, and real-time communication system.",
+    technologies: ["ReactJS", "NodeJS","Socket.IO", "ExpressJS", "MongoDB"],
+    image: "/servicepro-scrnshot.png",
+    link: "https://servicepro-seven.vercel.app/",
+    
+  },
+  {
+    title: "ShilpKart",
+    description: "ShilpKart is a full-stack e-commerce marketplace, designed to connect artisans with customers through a secure, multi-role platform with robust product management and discovery features.",
+    technologies: ["ReactJS","NodeJS","ExpressJS","MongoDB"],
+    image: "",
     link: "#",
-    category: "Web Application"
+    
+  },
+  {
+    title: "NewsBot",
+    description: "An AI-powered chatbot that provides on-demand summarization and contextual Q&A for any given news article.",
+    technologies: ["NextJS", "GroqAPI", "Supabase"],
+    image: "",
+    link: "#",
+    
   },
 
 ]
@@ -63,11 +79,7 @@ const Projects = () => {
                   alt={project.title}
                   className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300"
                 />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-4xl text-yellow-400/50 group-hover:text-yellow-400 transition-colors">
-                    {project.category}
-                  </span>
-                </div>
+                
               </div>
               <div className="p-6 relative">
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>

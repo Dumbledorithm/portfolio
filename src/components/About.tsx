@@ -29,7 +29,7 @@ const About = () => {
             {/* Resume Download Button */}
             <div className="flex justify-center space-x-4">
               <a
-                href="/resume.pdf"
+                href="/Shardendu_s_Resume_fullstack (1).pdf"
                 download
                 className="relative inline-block bg-yellow-400/20 text-yellow-400 px-6 py-3 rounded-lg border border-yellow-400/30 hover:bg-yellow-400/30 transition-colors overflow-hidden group"
               >

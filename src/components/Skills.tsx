@@ -8,23 +8,23 @@ interface Skill {
 
 const skills: Skill[] = [
   {
-    category: "Force Powers",
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5", "CSS3", "Redux", "GraphQL"],
+    category: "Languages",
+    items: ["Javascript", "Python", "Java", "C++", "SQL", "C"],
     icon: "⚡"
   },
   {
-    category: "Combat Training",
-    items: ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB", "Redis", "Socket.io"],
+    category: "Frameworks",
+    items: ["ReactJS", "NextJS", "NodeJS", "ExpressJS", "PostgreSQL", "MongoDB","Socket.io"],
     icon: "⚔️"
   },
   {
-    category: "Droid Engineering",
-    items: ["Git", "Docker", "AWS", "CI/CD", "Jest", "Webpack", "Kubernetes", "Terraform"],
+    category: "Developer Tools",
+    items: ["Git", "GitHub", "Supabase", "Cursor", "Vercel", "VSCode", "Pycharm"],
     icon: "🤖"
   },
   {
-    category: "Jedi Archives",
-    items: ["Machine Learning", "TensorFlow", "Data Analysis", "SQL", "NoSQL", "Big Data", "Apache Spark"],
+    category: "Libraries",
+    items: ["TailwindCSS", "ShadCN", "Pandas", "NumPy", "Streamlit"],
     icon: "📚"
   }
 ]
