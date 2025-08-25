@@ -19,7 +19,7 @@ const skills: Skill[] = [
   },
   {
     category: "Developer Tools",
-    items: ["Git", "GitHub", "Supabase", "Cursor", "Vercel", "VSCode", "Pycharm"],
+    items: ["Git", "GitHub", "Supabase","Postman", "Cursor", "Vercel", "VSCode", "Pycharm"],
     icon: "🤖"
   },
   {
