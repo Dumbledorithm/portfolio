@@ -5,6 +5,7 @@ import About from '@/components/About'
 import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
 import Contact from '@/components/Contact'
+import SkillsMarquee from '@/components/SkillsMarquee'
 
 export default function Home() {
   return (
@@ -73,6 +74,7 @@ export default function Home() {
       </section>
 
       {/* Other Sections */}
+      <SkillsMarquee/>
       <About />
       <Projects />
       <Skills />
