@@ -30,8 +30,8 @@ const projects: Project[] = [
     title: "ShilpKart",
     description: "ShilpKart is a full-stack e-commerce marketplace, designed to connect artisans with customers through a secure, multi-role platform with robust product management and discovery features.",
     technologies: ["ReactJS","NodeJS","ExpressJS","MongoDB"],
-    image: "",
-    link: "#",
+    image: "/shilpkart.png",
+    link: "https://shilpkart-ten.vercel.app/",
     
   },
   {

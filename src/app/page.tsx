@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import Link from 'next/link'
+import Navbar from '@/components/Navbar'
 import About from '@/components/About'
 import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
@@ -11,31 +12,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black">
       {/* Navigation */}
-      <nav className="fixed w-full bg-black/80 backdrop-blur-sm border-b border-blue-500/30 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
-            <div className="flex items-center">
-              <Link href="/" className="text-xl font-bold text-yellow-400 font-star-wars">
-                Shardendu Mishra
-              </Link>
-            </div>
-            <div className="flex items-center space-x-4">
-              <Link href="#about" className="text-blue-300 hover:text-yellow-400 transition-colors">
-                About
-              </Link>
-              <Link href="#projects" className="text-blue-300 hover:text-yellow-400 transition-colors">
-                Projects
-              </Link>
-              <Link href="#skills" className="text-blue-300 hover:text-yellow-400 transition-colors">
-                Skills
-              </Link>
-              <Link href="#contact" className="text-blue-300 hover:text-yellow-400 transition-colors">
-                Contact
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
